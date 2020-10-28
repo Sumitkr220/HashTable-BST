@@ -21,6 +21,14 @@ namespace HashTable_BST
                 treeSize++;
             }
         }
+        public int Size()
+        {
+            if (root == null)
+            {
+                Console.WriteLine("Binary Search Tree is Empty");
+            }
+            return treeSize;
+        }
         public void Display()
         {
             if (root == null)
